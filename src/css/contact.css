@@ -80,6 +80,6 @@ form {
 
 @media (max-width: 450px) {
     form{
-        width: 375px !important;
+        width: 350px !important;
     }
 }
