@@ -1,0 +1,85 @@
+.container-contact {
+    margin-top: 55px !important;
+}
+
+.contact{
+    height: 800px;
+    background-color: #1e2124;
+    box-shadow: 0 0 60px 30px #dc3545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+
+    outline: none !important;
+    height: 40px !important;
+    background-color: transparent !important;
+    border: 0 !important;
+    border-bottom: 2px solid #dc3545 !important;
+    border-radius: 5px 5px 0px 0px !important;
+
+}
+
+input:focus{
+    box-shadow: 0 0 5px 5px #dc3545 !important;
+    outline: none;
+    border: none;
+}
+
+textarea {
+    outline: none !important;
+    height: 150px !important;
+    background-color: transparent !important;
+    border: 0 !important;
+    border-bottom: 2px solid #dc3545 !important;
+    border-radius: 5px 5px 0px 0px !important;
+    resize: none;
+    color: #FFFFFF;
+}
+
+textarea:focus {
+    box-shadow: 0 0 5px 5px #dc3545 !important;
+    outline: none;
+    border: none;
+}
+
+form {
+    width: 600px !important;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px #dc3545;
+}
+
+.btn-contact {
+    width: 150px;
+    height: 35px;
+}
+
+.correct {
+    visibility: hidden;
+}
+
+.incorrect {
+    visibility: visible;
+    color: #dc3545;
+    padding: 5px !important;
+}
+
+.notsend {
+    visibility: hidden;
+}
+
+.sent {
+    visibility: visible;
+    color: #2fd144;
+    text-shadow: 0 0 10px #4cff5b !important;
+    transform: 1s;
+}
+
+
+@media (max-width: 450px) {
+    form{
+        width: 375px !important;
+    }
+}

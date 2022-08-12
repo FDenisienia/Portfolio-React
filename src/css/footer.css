@@ -1,0 +1,15 @@
+.footer-container {
+    margin-top: 100px !important;
+}
+
+.footer {
+    height: 100px !important;
+    background-color: #1e2124;
+
+}
+
+@media (max-width: 450px) {
+    .footer {
+        height: 150px !important;
+    }
+}
