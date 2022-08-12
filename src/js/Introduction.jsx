@@ -27,7 +27,7 @@ function Introduction(){
             </div>
 
             <div className="col-12 col-md-6 col-lg-6 introduction-container1 p-1">
-                <img className='img-mine img-fluid border border-dark' src='../src/assets/foto-perfil.jpg' alt='imagen del programador Federico Denisienia'></img>
+                <img className='img-mine img-fluid border border-dark' src='./assets/foto-perfil.jpg' alt='imagen del programador Federico Denisienia'></img>
                 <div className="fondo-img"></div>
             </div>
         </section>
